@@ -1,0 +1,31 @@
+Book Management System
+The Book Management System is a command-line application designed to help users manage a collection of books, authors, genres, and user ratings. This system provides a convenient way to add, view, and search for books, making it easy to organize and access information about your book collection.
+
+Features
+Add Books: Easily add new books to your collection by providing the book's title, author, genre, and a user-assigned rating.
+
+View Books: Access a list of all the books in your collection, displaying their titles, authors, genres, and user-assigned ratings.
+
+Search Functionality: Search for books based on various criteria, including title, author, and genre.
+
+Database Management: The system uses SQLAlchemy to create and manage a database that stores information about books, authors, and genres.
+
+Command-Line Interface: The system can be operated via a command-line interface (CLI), providing a straightforward and efficient way to manage your book collection.
+
+
+Before you begin using the Book Management System, ensure you have the following prerequisites:
+
+Python 3 installed 
+Pipenv for managing Python dependencies.
+A SQL database system, such as SQLite
+
+
+To interact with the Book Management System, you can use the following commands via the command-line interface (CLI):
+
+add_book: Add a new book to your collection by providing the title, author, genre, and rating.
+
+view_books: View a list of all the books in your collection, including their titles, authors, genres, and ratings.
+
+search: Search for books based on specific criteria, such as title, author, or genre.
+
+quit: Exit the application and return to the command prompt.
