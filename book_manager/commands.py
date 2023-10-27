@@ -3,12 +3,12 @@ from db import session
 
 
 def add_book(title, author_name, genre_name, rating):
-    # Check if the author already exists, or create a new one
+    
     author = session.query(Author).filter_by(name=author_name).first()
     if not author:
         author = Author(name=author_name)
 
-    # Check if the genre already exists, or create a new one
+    
     genre = session.query(Genre).filter_by(name=genre_name).first()
     if not genre:
         genre = Genre(name=genre_name)
@@ -16,7 +16,7 @@ def add_book(title, author_name, genre_name, rating):
     # Create a new book
     new_book = Book(title=title, author=author, genre=genre, rating=rating)
 
-    # Add the book to the database
+    # Book to the database
     session.add(new_book)
     session.commit()
 
