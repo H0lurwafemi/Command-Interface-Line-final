@@ -13,7 +13,7 @@ Database Management: The system uses SQLAlchemy to create and manage a database 
 Command-Line Interface: The system can be operated via a command-line interface (CLI), providing a straightforward and efficient way to manage your book collection.
 
 
-Before you begin using the Book Management System, ensure you have the following prerequisites:
+Prerequisites:
 
 Python 3 installed 
 Pipenv for managing Python dependencies.
